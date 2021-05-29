@@ -1,0 +1,16 @@
+.create-admin-form-wrapper{
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-admin-form{
+    padding: 5em;
+    border: 2px solid black;
+    border-radius: 5em;
+}
+
+.btn{
+    margin: 1em;
+}

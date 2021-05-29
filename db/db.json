@@ -1,0 +1,102 @@
+{
+  "vehicle": [
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c50",
+      "brand": "BMW",
+      "model": "325D",
+      "constructionYear": "2008",
+      "vehicleType": "luxury",
+      "fueltype": "diesel",
+      "numberOfSeats": 5,
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/37/BMW_325d_E90_%2813746268845%29.jpg",
+      "pricePerDay": 20,
+      "count": 4
+    },
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c51",
+      "brand": "Mercedes-Benz",
+      "model": "E320",
+      "constructionYear": "2008",
+      "vehicleType": "luxury",
+      "fueltype": "petrol",
+      "numberOfSeats": 5,
+      "picture": "https://image-cdn.beforward.jp/files/pictures/201304/115968/BF121494_1.jpg",
+      "pricePerDay": 20,
+      "count": 2
+    },
+    {
+      "id": "62838134-ebc4-4e7b-96f6-416484e80c53",
+      "brand": "BMW",
+      "model": "535",
+      "constructionYear": "2015",
+      "vehicleType": "luxury",
+      "fueltype": "petrol",
+      "numberOfSeats": 5,
+      "picture": "https://i.ytimg.com/vi/Ke3b5-AqUhM/hqdefault.jpg",
+      "pricePerDay": 25,
+      "count": 2
+    },
+    {
+      "brand": "Opel",
+      "vehicleType": "economy",
+      "fueltype": "petrol",
+      "numberOfSeats": "2",
+      "model": "Astra",
+      "constructionYear": "2015",
+      "pricePerDay": "15",
+      "count": "2",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf_%28cropped%29.jpg/1200px-Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf_%28cropped%29.jpg",
+      "id": "OQZXpZ2"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "firstName": "Nikola",
+      "lastName": "Georgiev",
+      "email": "ngg@example.com",
+      "password": "nikola1234",
+      "phoneNumber": "0885651999",
+      "isAdmin": false
+    },
+    {
+      "firstName": "testuser",
+      "lastName": "testuser",
+      "email": "testuser@test.com",
+      "password": "test",
+      "phoneNumber": "0889999999",
+      "id": "PpWEwql",
+      "isAdmin": false
+    },
+    {
+      "firstName": "boss",
+      "lastName": "boss",
+      "email": "boss@boss.com",
+      "password": "boss",
+      "phoneNumber": "0889999999",
+      "id": "boss",
+      "isAdmin": true
+    },
+    {
+      "firstName": "tessst",
+      "lastName": "tessst",
+      "email": "test@abv.bg",
+      "password": "sffsddsfd",
+      "phoneNumber": "3424334",
+      "isAdmin": false,
+      "id": "WPjsp-J"
+    },
+    {
+      "firstName": "second",
+      "lastName": "boss",
+      "email": "sboss@boss.com",
+      "password": "secondboss",
+      "phoneNumber": "secondboss",
+      "isAdmin": true,
+      "id": "Qe7G-ha"
+    }
+  ],
+  "rented": [
+    
+  ]
+}

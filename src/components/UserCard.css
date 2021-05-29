@@ -1,0 +1,89 @@
+.user-card-container{
+    width: 100%;
+    background-color: rgb(149, 163, 159);
+    display: inline-flex;
+}
+
+.menu-item{
+    width: 24%;
+    margin: auto;
+}
+
+.menu-button{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    border-radius: 3em;
+    margin: 0.2em;
+}
+
+#logout:hover{
+    cursor: pointer;
+}
+
+/* ---------- */
+
+.dropbtn {
+    background-color: #6a6e6d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: transparent;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .btn{
+      width: 30%;
+  }
+
+  .date-picker{
+      width: 40%;
+      margin: auto;
+  }
+
+  @media only screen and (max-width: 650px) {
+    .user-card-container{
+      display: block;
+    }
+
+    .menu-item{
+      width: 100%;
+      margin: auto;
+    }
+
+    .dropdown{
+      width: 100%;
+    }
+
+    .dropbtn{
+      width: 100%;
+    }
+  }

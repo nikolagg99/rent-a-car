@@ -1,0 +1,42 @@
+.rental-card-container{
+    border:2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.filter-container{
+    margin: 1em;
+}
+
+.image-car{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.input-date{
+    width: 70%;
+}
+
+
+.date-picker{
+    width: 80%;
+}
+
+.vl {
+    border-left: 6px solid black;
+    height: 100%;
+  }
+
+  .date-container{
+      margin: 1em;
+  }
+
+  .vehicle-dropdown{
+      width: 80%;
+  }
+
+  

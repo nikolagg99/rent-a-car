@@ -1,0 +1,7 @@
+.add-vehicle-form-wrapper{
+    width: 50%;
+    margin: auto;
+    border:3px solid black;
+    border-radius: 5em;
+    margin-top: 2em;
+}

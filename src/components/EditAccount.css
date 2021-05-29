@@ -1,0 +1,18 @@
+.user-edit-form{
+    border: 2px solid black;
+    border-radius: 5vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 5em;
+}
+
+.form-group{
+    margin: 1vh;
+}
+
+input{
+    border-radius: 20px;
+    width: 100%;
+    resize: vertical;
+}
+
