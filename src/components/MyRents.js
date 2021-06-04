@@ -39,7 +39,7 @@ export function MyRents(props){
                         if(loggedUser.id === rented.customer){
                             return(
                                 <tr key={rented.id}>
-                                <td className="my-rents-td"><img alt="not found" src={rented.picture}/></td>
+                                <td className="my-rents-td"><img className="image-my-rents" alt="not found" src={rented.picture}/></td>
                                 <td className="my-rents-td">{rented.vehicle}</td>
                                 <td className="my-rents-td">{rented.startDateAndTime}</td>
                                 <td className="my-rents-td">{rented.endDateAndTime}</td>

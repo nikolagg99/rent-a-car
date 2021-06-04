@@ -54,7 +54,7 @@ export function RentalCard(props){
      //displaying photo of the car
       const getLinkPhoto = () =>{
          var splitArray =  vehicleInfo.toString().split(" ");
-         var imageLinkCar;
+         var imageLinkCar = "https://drivescout.com/wp-content/uploads/2017/07/Choose-Car-Photo.jpg";
          vehicle.forEach(
              vehicle => {
                 if(vehicle.brand === splitArray[0] && vehicle.model === splitArray[1] && vehicle.constructionYear === splitArray[2]){
@@ -118,15 +118,18 @@ export function RentalCard(props){
             rentDays: calculateRentDays()
           }
 
-          rent(dataToSave).then(_ => {
-              setRedirect(true);
-          }).catch(err => console.error(err));
-          
+          if(dataToSave.picture === "https://drivescout.com/wp-content/uploads/2017/07/Choose-Car-Photo.jpg"){
+              return null;
+          }else{
+            rent(dataToSave).then(_ => {
+                setRedirect(true);
+            }).catch(err => console.error(err));
+          }   
       }
 
     return(
         <>
-        {redirect && <Redirect to='/rent-page'/>}
+        {redirect && <Redirect to='/my-rents'/>}
         <div className="rental-card-container" >
                  <div className="filter-container">
                      <label htmlFor="vehicleTypes"><b>Vehicle types: </b></label>
@@ -182,7 +185,9 @@ export function RentalCard(props){
                  <div className="vehicle-presentation-container">
                      <div className="image-container">
                          <img 
-                         src={getLinkPhoto()} 
+                         src={
+                            getLinkPhoto()
+                         } 
                          className="image-car"
                          alt="Choose a car"/>
                      </div>

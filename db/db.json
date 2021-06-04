@@ -130,6 +130,16 @@
       "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/2019_BMW_740Li_Automatic_facelift_3.0.jpg",
       "rentDays": 6,
       "id": 1
+    },
+    {
+      "vehicle": "BMW 535 2015",
+      "startDateAndTime": "2021-06-05",
+      "endDateAndTime": "2021-06-12",
+      "customer": "boss",
+      "finalPrice": 166.25,
+      "picture": "https://i.ytimg.com/vi/Ke3b5-AqUhM/hqdefault.jpg",
+      "rentDays": 7,
+      "id": 2
     }
   ]
 }
