@@ -1,4 +1,4 @@
-import { Switch } from 'react-router';
+import {Redirect, Route, Switch } from 'react-router';
 import './App.css';
 import { AddVehicle } from './components/AddVehicle';
 import { CreateAdmin } from './components/CreateAdmin';
@@ -17,6 +17,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
+      <Route exact path="/">
+        <Redirect to="/login" />
+      </Route>
         <NonAuthenticatedRoute exact path="/login" component={Login}/>
         <NonAuthenticatedRoute exact path="/register" component={Register}/>
         <AuthenticatedRoute exact path="/rent-page" component={RentPage}/>
