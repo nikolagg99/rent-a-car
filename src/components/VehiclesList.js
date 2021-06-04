@@ -23,10 +23,14 @@ export function VehiclesList(props){
 
     return(
         <div className="vehicles-container">
-           <h1>Vehicles List</h1>
-           <Link to="/add-vehicle">Add new</Link>|
-           <Link to="/rent-page">Rent page</Link>
+            <div className="vehicles-table-header">
+                <h1>Vehicles List</h1>
+                <Link to="/add-vehicle">Add new</Link>|
+                <Link to="/rent-page">Rent page</Link>
+            </div>
+           
             <table className = "vehicles-table">
+                <thead>
                 <tr>
                     <th>Picture</th>
                     <th>Brand</th>
@@ -39,10 +43,12 @@ export function VehiclesList(props){
                     <th>Count</th>
                     <th></th>
                 </tr>
+                </thead>
+                <tbody>
                 {
                  vehicles.map(vehicles => {
-                     return <tr>
-                         <td><img alt="Not found" src={vehicles.picture}/></td>
+                     return <tr key={vehicles.id}>
+                         <td><img className="vehicle-img" alt="Not found" src={vehicles.picture}/></td>
                          <td>{vehicles.brand}</td>
                          <td>{vehicles.model}</td>
                          <td>{vehicles.constructionYear}</td>
@@ -53,7 +59,6 @@ export function VehiclesList(props){
                          <td>{vehicles.count}</td>
                          <td>
                          <button className="btn btn-primary" onClick={()=>{onDelete(vehicles.id)}}>Delete</button>
-                         {/* <Link to="/edit-vehicle">Edit Vehicle</Link> */}
                          <Link to={{
                              pathname: `edit-vehicle`,
                              state: vehicles.id
@@ -64,6 +69,8 @@ export function VehiclesList(props){
                       
                     })
                 }
+                </tbody>
+               
             </table>
         </div>
         

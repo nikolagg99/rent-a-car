@@ -19,7 +19,7 @@ export function AddVehicle(props){
              [event.target.name]: event.target.value,
              vehicleType:valueVehicleType,
              fueltype: ValueFuelType,
-             numberOfSeats: valueNumberOfSeats
+             numberOfSeats: Number(valueNumberOfSeats)
          }));
     }
 
@@ -27,7 +27,6 @@ export function AddVehicle(props){
          event.preventDefault();
          
          addVehicle(vehicleData).then(_ => {
-             console.log('Success!!!');
              setRedirect(true);
          })
          .catch(err => console.error(err));

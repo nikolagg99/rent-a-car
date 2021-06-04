@@ -18,8 +18,12 @@ export function MyRents(props){
 
     return(
         <div className="rent-container">
-            <Link to="/rent-page">Back to rent page</Link>
+            <div className="rents-header">
+                <h1>Rented cars</h1>
+                <Link to="/rent-page">Back to rent page</Link>
+            </div>
             <table className="rent-table">
+                <thead>
                 <tr>
                     <th>Picture</th>
                     <th>Vehicle</th>
@@ -28,22 +32,27 @@ export function MyRents(props){
                     <th>Rent days</th>
                     <th>Final price</th>
                 </tr>
+                </thead>
+                <tbody>
                 {
                     rented.map(rented =>{
                         if(loggedUser.id === rented.customer){
                             return(
-                                <tr>
-                                <td><img src={rented.picture}/></td>
-                                <td>{rented.vehicle}</td>
-                                <td>{rented.startDateAndTime}</td>
-                                <td>{rented.endDateAndTime}</td>
-                                <td>{rented.rentDays}</td>
-                                <td>{rented.price}</td>
+                                <tr key={rented.id}>
+                                <td className="my-rents-td"><img alt="not found" src={rented.picture}/></td>
+                                <td className="my-rents-td">{rented.vehicle}</td>
+                                <td className="my-rents-td">{rented.startDateAndTime}</td>
+                                <td className="my-rents-td">{rented.endDateAndTime}</td>
+                                <td className="my-rents-td">{rented.rentDays}</td>
+                                <td className="my-rents-td">{rented.finalPrice} euro</td>
                             </tr>
                             ) 
+                        }else{
+                            return null;
                         }    
                     })
                 }
+                </tbody>
 
             </table>
         </div>
