@@ -49,18 +49,6 @@
       "id": "AFKMxVE"
     },
     {
-      "picture": "https://www.truck1.bg/img/Lekotovaren_avtomobil_Tovaren_bus_2010_Mercedes_Benz_Sprinter-xxl-8874/8874_1469466691642.jpg",
-      "vehicleType": "cargo",
-      "fueltype": "diesel",
-      "numberOfSeats": 3,
-      "brand": "Mercedes-benz",
-      "model": "Sprinter",
-      "constructionYear": "2010",
-      "pricePerDay": "50",
-      "count": 1,
-      "id": "PphIxf3"
-    },
-    {
       "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/2019_BMW_740Li_Automatic_facelift_3.0.jpg",
       "vehicleType": "luxury",
       "fueltype": "petrol",
