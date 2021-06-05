@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {getAllUsers} from './UsersService.js';
 
-const apiUrl = 'http://Localhost:3000';
+const apiUrl = 'https://my-json-server.typicode.com/nikolagg99/json-server-rent-a-car';
 
 /**
  * @returns the logged user or undefined

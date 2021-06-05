@@ -104,7 +104,7 @@ export function AddVehicle(props){
                     <label htmlFor="count">Count:</label>
                     <input type="text" id="count" name="count" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
-                <button className="btn btn-primary">Add</button><br/>
+                <button id="button" className="btn btn-primary">Add</button><br/>
                 <Link to="/vehicles-list">Vehicles</Link>
             </form>
 
