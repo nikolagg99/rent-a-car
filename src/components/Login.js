@@ -43,7 +43,7 @@ export function Login(props){
 
                 </div>
                 <button className="btn">Login</button>
-                <p>You don't have an account yet. <Link className="register-link" to ="/register">Register now!</Link></p>
+                <p>You don't have an account yet? <Link className="register-link" to ="/register">Register now!</Link></p>
             </form>
 
         </div>

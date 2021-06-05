@@ -7,10 +7,16 @@
 
 .create-admin-form{
     padding: 5em;
-    border: 2px solid black;
+    background: rgba(107, 97, 97, 0.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 5em;
 }
 
 .btn{
     margin: 1em;
+}
+
+.input-create-admin{
+    background: #cfdce0;
+    border-radius: 20px;
 }

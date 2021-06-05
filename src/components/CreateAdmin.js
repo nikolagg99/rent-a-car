@@ -35,26 +35,26 @@ export function CreateAdmin(props){
             <h1>Create Admin</h1>
                 <div className="form-group">
                     <label htmlFor="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="firstName" name="firstName" className="input-create-admin" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="lastName" name="lastName" className="input-create-admin" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" className="form-control" onChange={onInputChange}/>
+                    <input type="email" id="email" name="email" className="input-create-admin" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="password">Password:</label>
-                    <input type="password" id="password" name="password" className="form-control" onChange={onInputChange}/>
+                    <input type="password" id="password" name="password" className="input-create-admin" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="phoneNumber">Phone Number:</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="phoneNumber" name="phoneNumber" className="input-create-admin" onChange={onInputChange}/>
                 </div>
-                <button className="btn btn-primary">Register</button><br/>
-                <Link to="/login">Login</Link>
+                <button className="btn btn-primary">Create</button><br/>
+                <Link to="/rent-page">Rent page</Link>
             </form>
 
         </div>

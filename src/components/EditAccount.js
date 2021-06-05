@@ -38,7 +38,7 @@ export function EditAccount(props){
     return(
         <>
         {shouldRedirect && <Redirect to ="/rent-page"/>}
-        <div className="change-pass-wrapper">
+        <div className="edit-account-wrapper">
             <form className="user-edit-form" onSubmit={onSubmit}>
                 <h1>Edit profile</h1>
                 <div className="form-group">

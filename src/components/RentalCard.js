@@ -193,19 +193,19 @@ export function RentalCard(props){
                      </div>
 
                      <div className="price-container">
-                         <p className="priceParagraph"><b>Price per day:</b>{getPriceForADay()} euro</p>
+                         <p className="priceParagraph"><b>Price per day:</b>{getPriceForADay()} &euro;</p>
                      </div>
                  </div>
                  <hr></hr>
 
                  <div className="rental-duration-container">
                     <div className="date-container">
-                        <label htmlFor="startDate"><b>Start Date: </b></label>
+                        <label className="date-label" htmlFor="startDate"><b>Start Date: </b></label>
                         <input type="date" className="input-date" id="startDateAndTime" name="startDateAndTime" onChange={e => {onInputChange(e)}}></input>
                     </div>
 
                     <div className="date-container">
-                        <label htmlFor="endDate"><b>End Date: </b></label>
+                        <label className="date-label" htmlFor="endDate"><b>End Date: </b></label>
                         <input type="date" className="input-date" id="endDateAndTime" name="endDateAndTime" onChange={e => {onInputChange(e)}}></input>
                     </div>
                  </div>

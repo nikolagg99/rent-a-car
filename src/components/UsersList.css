@@ -24,7 +24,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #747c74;
     color: white;
   }
 
@@ -36,8 +36,8 @@
   .users-container{
       height: 100%;
       overflow-y: auto;
-      border-style: double;
       margin: 2em;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
   }
 
   .users-container::-webkit-scrollbar-track

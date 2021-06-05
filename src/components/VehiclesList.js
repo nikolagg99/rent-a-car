@@ -55,7 +55,7 @@ export function VehiclesList(props){
                          <td>{vehicles.vehicleType}</td>
                          <td>{vehicles.fueltype}</td>
                          <td>{vehicles.numberOfSeats}</td>
-                         <td>{vehicles.pricePerDay}</td>
+                         <td>{vehicles.pricePerDay} &euro;</td>
                          <td>{vehicles.count}</td>
                          <td>
                          <button className="btn btn-primary" onClick={()=>{onDelete(vehicles.id)}}>Delete</button>

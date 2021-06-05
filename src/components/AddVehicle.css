@@ -1,7 +1,18 @@
 .add-vehicle-form-wrapper{
     width: 50%;
     margin: auto;
-    border:3px solid black;
+    background: rgba(107, 97, 97, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 5em;
     margin-top: 2em;
+}
+
+.add-vehicle-input{
+    background: #cfdce0;
+    border-radius: 20px;
+}
+
+.add-vehicle-form{
+    padding: 1em;
 }

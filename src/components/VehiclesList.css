@@ -9,7 +9,7 @@
   }
   
   .vehicles-table-header{
-    background-color: #51e879;
+    background-color: #e6eee8;
     width: 100%;
     height: 5em;
   }
@@ -22,7 +22,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #b0b4b0;
     color: white;
   }
 
@@ -34,8 +34,8 @@
   .vehicles-container{
       height: 30em;
       overflow-y: auto;
-      border-style: double;
       margin: 3em;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
   }
 
   .vehicles-container::-webkit-scrollbar-track
@@ -56,9 +56,9 @@
     background-color: #FFF;
     background-image: -webkit-linear-gradient(top,
                           #e4f5fc 0%,
-                          #b9faca 50%,
-                          #51e879 51%,
-                          #4CAF50 100%);
+                          #8ebeda 50%,
+                          #81c5ec 51%,
+                          #4eb5f1 100%);
   }
 
 .vehicle-img{

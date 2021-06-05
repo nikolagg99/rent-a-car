@@ -1,9 +1,11 @@
 .user-edit-form{
-    border: 2px solid black;
+    padding: 2em;
     border-radius: 5vh;
     width: 50%;
     margin: auto;
     margin-top: 5em;
+    background: rgba(107, 97, 97, 0.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
 .form-group{
@@ -14,5 +16,6 @@ input{
     border-radius: 20px;
     width: 100%;
     resize: vertical;
+    background: #cfdce0;
+    border: none;
 }
-

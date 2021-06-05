@@ -1,13 +1,15 @@
 .rental-card-container{
-    border:2px solid black;
     border-radius: 10px;
     width: 60%;
     margin: auto;
     margin-top: 1em;
+    background: rgba(107, 97, 97, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
 .filter-container{
-    margin: 1em;
+    padding-top: 1em;
 }
 
 .image-car{
@@ -19,6 +21,8 @@
 
 .input-date{
     width: 70%;
+    background: #cfdce0;
+    border: none;
 }
 
 
@@ -26,15 +30,18 @@
     width: 80%;
 }
 
-.vl {
-    border-left: 6px solid black;
-    height: 100%;
-  }
-
   .date-container{
       margin: 1em;
   }
 
   .vehicle-dropdown{
       width: 80%;
+  }
+
+  select{
+      background: #cfdce0;
+  }
+
+  .date-label{
+      padding-right: 1em;
   }

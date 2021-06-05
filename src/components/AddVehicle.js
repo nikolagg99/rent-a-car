@@ -55,19 +55,19 @@ export function AddVehicle(props){
             <h1>Add Vehicle</h1>
                 <div className="form-group">
                     <label htmlFor="brand">Brand:</label>
-                    <input type="text" id="brand" name="brand" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="brand" name="brand" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="model">Model</label>
-                    <input type="text" id="model" name="model" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="model" name="model" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="constructionYear">Construction Year</label>
-                    <input type="text" id="constructionYear" name="constructionYear" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="constructionYear" name="constructionYear" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="vehicleType">Type:</label>
-                    <select name="vehicleType" className="form-control" defaultValue="vehicleType" onChange={selectVehicleType}>
+                    <select name="vehicleType" className="add-vehicle-input" defaultValue="vehicleType" onChange={selectVehicleType}>
                         <option value="economy">economy</option>
                         <option value="estate">estate</option>
                          <option value="luxury">luxury</option>
@@ -77,7 +77,7 @@ export function AddVehicle(props){
                 </div>
                 <div className="form-group">
                     <label htmlFor="fueltype">Fuel Type:</label>
-                    <select name="fueltype" className="form-control" defaultValue="petrol" onChange={selectFuelType}>
+                    <select name="fueltype" className="add-vehicle-input" defaultValue="petrol" onChange={selectFuelType}>
                          <option value="petrol">petrol</option>
                          <option value="diesel">diesel</option>
                          <option value="hybrid">hybrid</option>
@@ -86,7 +86,7 @@ export function AddVehicle(props){
                 </div>
                 <div className="form-group">
                     <label htmlFor="numberOfSeats">Number of Seats:</label>
-                    <select name = "numberOfSeats" className="form-control" defaultValue="2" onChange={selectNumberOfSeats}>
+                    <select name = "numberOfSeats" className="add-vehicle-input" defaultValue="2" onChange={selectNumberOfSeats}>
                          <option value="2">2</option>
                          <option value="3">3</option>
                          <option value="5">5</option>
@@ -94,15 +94,15 @@ export function AddVehicle(props){
                 </div>
                 <div className="form-group">
                     <label htmlFor="picture">Picture:</label>
-                    <input type="text" id="picture" name="picture" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="picture" name="picture" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="pricePerDay">Price per day:</label>
-                    <input type="text" id="pricePerDay" name="pricePerDay" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="pricePerDay" name="pricePerDay" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="count">Count:</label>
-                    <input type="text" id="count" name="count" className="form-control" onChange={onInputChange}/>
+                    <input type="text" id="count" name="count" className="add-vehicle-input" onChange={onInputChange}/>
                 </div>
                 <button className="btn btn-primary">Add</button><br/>
                 <Link to="/vehicles-list">Vehicles</Link>

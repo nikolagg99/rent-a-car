@@ -44,7 +44,7 @@ export function MyRents(props){
                                 <td className="my-rents-td">{rented.startDateAndTime}</td>
                                 <td className="my-rents-td">{rented.endDateAndTime}</td>
                                 <td className="my-rents-td">{rented.rentDays}</td>
-                                <td className="my-rents-td">{rented.finalPrice} euro</td>
+                                <td className="my-rents-td">{rented.finalPrice} &euro;</td>
                             </tr>
                             ) 
                         }else{
